@@ -92,7 +92,7 @@ export default function Analyze() {
           <Textarea
             value={code}
             onChange={handleInputChange}
-            placeholder="Enter Solidity code here..."
+            placeholder="Solidity source code must be flattened before paste here..."
             height="300px"
           />
           <Button
